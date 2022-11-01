@@ -1,0 +1,171 @@
+.max {position: absolute;
+width: 756px;
+height: 982px;
+left: 0px;
+top: 0px;
+
+/* Purple */
+
+background: #793EF5;
+}
+.logo {
+    position: absolute;
+width: 200px;
+height: 40px;
+left: 1034px;
+top: 77px;
+
+
+}
+.log {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 360px;
+    height: 256px;
+    left: 954px;
+    top: 363px;
+}
+.btn {
+    background: #793EF5;
+border-radius: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 16px;
+gap: 29px;
+width: 360px;
+height: 48px;
+
+}
+.email {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+width: 360px;
+height: 48px;
+
+/* Base/Secondary */
+
+background: #F5F5F7;
+/* Field Stroke */
+
+border: 1px solid #CECECE;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.pwd {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+width: 360px;
+height: 48px;
+
+/* Base/Secondary */
+
+background: #F5F5F7;
+/* Field Stroke */
+
+border: 1px solid #CECECE;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.logi {
+    width: 66px;
+height: 24px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 0.4px;
+font-feature-settings: 'liga' off;
+
+/* Dark */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.design {
+    width: 45px;
+height: 20px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: center;
+letter-spacing: 0.4px;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.labe {
+    width: 114px;
+height: 24px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+/* identical to box height, or 150% */
+
+
+
+
+/* Gray 3 */
+
+color: #828282;
+
+
+/* Inside auto layout */
+
+}
